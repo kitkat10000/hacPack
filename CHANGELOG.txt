@@ -1,0 +1,36 @@
+v1.20-r3:
+hacPack-Tools:
+Fixed a bug cause compiled version of hacPackTools-NACP not running on windows machines
+
+v1.20-r2:
+hacPack-Tools:
+Added RequiredNetworkServiceLicenseOnLaunch and UserAccountSwitchLock options for hacPackTools-NACP
+
+v1.20
+hacPack:
+Added option for creating Metadata nca from cnmt
+hacPack-GUI:
+Added option for creating Metadata nca from cnmt in gui
+hacPack-Tools:
+Added hacPackTools-NACP v1.00
+
+v1.12
+Fixed a bug cause making bad PFS0 for files larger than 4GB in 32-bit platforms
+
+v1.11
+Added buffer for creating PFS0
+Increased buffer size for creating RomFS
+
+v1.10
+Added support for creating SystemProgram and SystemData Metadata NCA
+Added titleversion option for creating Metadata NCA
+
+v1.02
+GUI:
+Fixed a bug cause failure of building meta ncas with legal information nca and without data nca
+
+v1.01
+Fixed a bug cause failure of control.nacp validation in titles without AmericanEnglish title name and title author
+
+v1.00
+Initial Release.
